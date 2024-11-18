@@ -10,20 +10,32 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="kudini">
         <audio src="kudini_jade_wwa.mp3" type="audio/mpeg" autoplay controls></audio>
+    </div>
+    <div class="footer">
+            biznes@kudini.jade.waw.pl
     </div>
 </body>
 
 <style>
-    html, body, .container {
+    html, body {
         height: 100%;
+        background-color: gray;
     }
 
     .kudini {
+        height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 1%;
+        left: 1%;
+        z-index: 10;
     }
 </style>
 </html>
